@@ -1,4 +1,4 @@
-
+/*
 .parent  
 { 
   position: relative; 
@@ -17,3 +17,15 @@
  
   margin: -70px 0 0 -170px; 
 } 
+*/
+
+.center{
+    text-align: center;
+
+
+
+}
+body {
+    background-image: url("https://cutewallpaper.org/21/gif-background-html/8-HTML-Scripts-to-Add-Interactivity-to-Your-Websites.gif"), url("paper.gif");
+    background-color: green;
+  }
