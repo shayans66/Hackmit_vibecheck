@@ -18,7 +18,9 @@
   margin: -70px 0 0 -170px; 
 } 
 */
-
+h1{
+    font-size: 1000px;
+}
 .center{
     text-align: center;
 

@@ -7,11 +7,15 @@ submit.addEventListener('click', addElement);
 function addElement() {
   if (!clicked) {
     // make new div
-    const newDiv = document.createElement('div');
+    const newDiv = document.createElement('h1');
     // create number
     let text = Math.floor(Math.random() * 100) + 1;
     // create text content
-    const newContent = document.createTextNode(text);
+    let f = "";
+    for(let i=0; i<50;i++){
+      f += '   \xa0    ';
+    }
+    const newContent = document.createTextNode(f + '      ' + text);
 
     // append it to div
     newDiv.appendChild(newContent);
