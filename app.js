@@ -12,7 +12,7 @@ function addElement() {
     let text = Math.floor(Math.random() * 100) + 1;
     // create text content
     let f = "";
-    for(let i=0; i<50;i++){
+    for(let i=0; i<40;i++){
       f += '   \xa0    ';
     }
     const newContent = document.createTextNode(f + '      ' + text);
